@@ -115,5 +115,8 @@ column-gap: 3%;
     height: 430px;
 }
 
-@media (max-width:480px) {
+@media (min-width:480px) {
+    body{
+        display: grid;
+    }
 }
